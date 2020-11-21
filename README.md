@@ -17,9 +17,7 @@ Random forests are a popular family of classification and regression methods.
 
 # 5. SVM Classification
 
-# 6. Kernel SVM classification
-
-# 7. Naive Bayes Classification
+# 6. Naive Bayes Classification
 
 # Model evaluation
 
