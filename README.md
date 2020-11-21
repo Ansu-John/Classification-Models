@@ -13,7 +13,7 @@ Decision trees are a popular family of classification and regression methods.
 
 Random forests are a popular family of classification and regression methods.
 
-# 4. KNN Classification
+# 4. K-nearest neighbour Classification
 
 # 5. SVM Classification
 
@@ -23,4 +23,21 @@ Random forests are a popular family of classification and regression methods.
 
 # Model evaluation
 
+### Classification accuracy
+
+### Confusion matrix
+
+type-I error occurs when null hypothesis is rejected which should not be in actual. And type-II error occurs when although alternate hypothesis is true, you are failing to reject null hypothesis.
+
+![Regression](https://github.com/Ansu-John/Classification-Models/blob/main/resources/errorTypes.png)
+
+![Regression](https://github.com/Ansu-John/Classification-Models/blob/main/resources/errorTypes.png)
+
+### Receiver Operating Characteristics (ROC) Curve
+Measuring the area under the ROC curve is also a very useful method for evaluating a model. ROC is the ratio of True Positive Rate (TPR) and False Positive Rate (FPR)
+
+![Regression](https://github.com/Ansu-John/Classification-Models/blob/main/resources/errorTypes.png)
+
 # REFERENCE
+
+https://towardsdatascience.com/model-evaluation-techniques-for-classification-models-eac30092c38b
