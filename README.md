@@ -73,7 +73,7 @@ For finding closest similar points, you find the distance between points using d
 
 SVM or Support Vector Machine is a linear model for classification and regression problems. It can easily handle multiple continuous and categorical variables. SVM constructs a hyperplane in multidimensional space to separate different classes. SVM generates optimal hyperplane in an iterative manner, which is used to minimize an error. The core idea of SVM is to find a maximum marginal hyperplane(MMH) that best divides the dataset into classes.
 
-![Support Vector Machines (SVM)](https://github.com/Ansu-John/Classification-Models/blob/main/resources/Support Vector Machines (SVM).png)
+![Support Vector Machines (SVM)](https://github.com/Ansu-John/Classification-Models/blob/main/resources/Support%20Vector%20Machines%20(SVM).png)
 
 + **Support Vectors**
 
@@ -92,6 +92,17 @@ The SVM algorithm is implemented in practice using a kernel. Kernel takes a low-
 + **Radial Basis Function Kernel :** The Radial basis function kernel is a popular kernel function commonly used in support vector machine classification. RBF can map an input space in infinite dimensional space.
 
 ## 6. Naive Bayes Classification
+
+Naive Bayes is a statistical classification technique based on Bayes Theorem. It is one of the simplest supervised learning algorithms. Naive Bayes classifier is the fast, accurate and reliable algorithm. Naive Bayes classifiers have high accuracy and speed on large datasets.
+
+Naive Bayes classifier assumes that the effect of a particular feature in a class is independent of other features. Bayes theorem provides a way of calculating probability
+
+![NaiveBayesClassification](https://github.com/Ansu-John/Classification-Models/blob/main/resources/NaiveBayesClassification.png)
+
+   **P(h):** the probability of hypothesis h being true (regardless of the data). This is known as the prior probability of h.
+   **P(D):** the probability of the data (regardless of the hypothesis). This is known as the prior probability.
+   **P(h|D):** the probability of hypothesis h given the data D. This is known as posterior probability.
+   **P(D|h):** the probability of data d given that the hypothesis h was true. This is known as posterior probability.
 
 # Model evaluation
 
@@ -173,6 +184,8 @@ https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighb
 https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
 
 https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
+
+https://www.datacamp.com/community/tutorials/naive-bayes-scikit-learn
 
 https://developers.google.com/machine-learning/crash-course/classification/accuracy
 
