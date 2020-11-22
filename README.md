@@ -99,10 +99,10 @@ Naive Bayes classifier assumes that the effect of a particular feature in a clas
 
 ![NaiveBayesClassification](https://github.com/Ansu-John/Classification-Models/blob/main/resources/NaiveBayesClassification.png)
 
-   **P(h):** the probability of hypothesis h being true (regardless of the data). This is known as the prior probability of h.
-   **P(D):** the probability of the data (regardless of the hypothesis). This is known as the prior probability.
-   **P(h|D):** the probability of hypothesis h given the data D. This is known as posterior probability.
-   **P(D|h):** the probability of data d given that the hypothesis h was true. This is known as posterior probability.
++ **P(h):** the probability of hypothesis h being true (regardless of the data). This is known as the prior probability of h.
++ **P(D):** the probability of the data (regardless of the hypothesis). This is known as the prior probability.
++ **P(h|D):** the probability of hypothesis h given the data D. This is known as posterior probability.
++ **P(D|h):** the probability of data d given that the hypothesis h was true. This is known as posterior probability.
 
 # Model evaluation
 
@@ -150,10 +150,7 @@ Recall can be defined as the percentage of correctly predicted positive outcomes
 
 Recall identifies the proportion of correctly predicted actual positives.
 
-Mathematically, recall can be given as the ratio of TP to (TP + FN).
-
-#### True Positive Rate
-True Positive Rate is synonymous with Recall and can be given as the ratio of TP to (TP + FN).
+Mathematically, recall can be given as the ratio of TP to (TP + FN). True Positive Rate is synonymous with Recall and can be given as the ratio of TP to (TP + FN).
 
 #### f1-score
 f1-score is the weighted harmonic mean of precision and recall. The best possible f1-score would be 1.0 and the worst would be 0.0. f1-score is the harmonic mean of precision and recall. So, f1-score is always lower than accuracy measures as they embed precision and recall into their computation. The weighted average of f1-score should be used to compare classifier models, not global accuracy.
