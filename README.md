@@ -57,6 +57,18 @@ f(x) = sum of all sub-tree predictions divided over B trees
 
 ## 4. K-nearest neighbour Classification
 
+K-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems.
+
+The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other. KNN captures the idea of similarity (sometimes called distance, proximity, or closeness) with some mathematics we might have learned in our childhood— calculating the distance between points on a graph.
+
+For finding closest similar points, you find the distance between points using distance measures such as Euclidean distance, Hamming distance, Manhattan distance and Minkowski distance. Euclidean distance is a popular and familiar choice. KNN has the following basic steps:
+
++ Calculate distance
++ Find closest neighbors
++ Vote for labels
+
+![KNN-Classification](https://github.com/Ansu-John/Classification-Models/blob/main/resources/KNN-Classification.png)
+
 ## 5. SVM Classification
 
 ## 6. Naive Bayes Classification
@@ -135,6 +147,10 @@ https://medium.com/swlh/decision-tree-classification-de64fc4d5aac
 https://builtin.com/data-science/random-forest-algorithm
 
 https://medium.com/swlh/random-forest-classification-and-its-implementation-d5d840dbead0
+
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
+
+https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
 
 https://developers.google.com/machine-learning/crash-course/classification/accuracy
 
