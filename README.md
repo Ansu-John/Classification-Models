@@ -7,11 +7,38 @@ Logistic regression is a popular method to predict a categorical response. It is
 
 # 2. Decision Tree Classification
 
-Decision trees are a popular family of classification and regression methods. 
+A Decision Tree is a simple representation for classifying examples. It is a Supervised Machine Learning where the data is continuously split according to a certain parameter.
+Decision Tree consists of :
+
+**Nodes :** Test for the value of a certain attribute.
+
+**Edges/ Branch :** Correspond to the outcome of a test and connect to the next node or leaf.
+
+**Leaf nodes :** Terminal nodes that predict the outcome (represent class labels or class distribution).
+
+There are two main types of Decision Trees:
++ Classification Trees.
++ Regression Trees.
+
+### 1. Classification trees (Yes/No types) :
+What we’ve seen above is an example of classification tree, where the outcome was a variable like ‘fit’ or ‘unfit’. Here the decision variable is Categorical/ discrete.
+Such a tree is built through a process known as binary recursive partitioning. This is an iterative process of splitting the data into partitions, and then splitting it up further on each of the branches.
+
+### 2. Regression trees (Continuous data types) :
+Decision trees where the target variable can take continuous values (typically real numbers) are called regression trees. (e.g. the price of a house, or a patient’s length of stay in a hospital)
 
 # 3. Random Forest Classification
 
-Random forests are a popular family of classification and regression methods.
+The Random Forest Classifier is a set of decision trees from randomly selected subset of training set. It aggregates the votes from different decision trees to decide the final class of the test object. It is an ensemble tree-based learning algorithm. 
+
+### Ensemble Algorithm :
+Ensemble algorithms are those which combines more than one algorithms of same or different kind for classifying objects. For example, running prediction over Naive Bayes, SVM and Decision Tree and then taking vote for final consideration of class for test object.
+
+Types of Random Forest models:
++ 1. Random Forest Prediction for a classification problem:
+f(x) = majority vote of all predicted classes over B trees
++ 2. Random Forest Prediction for a regression problem:
+f(x) = sum of all sub-tree predictions divided over B trees
 
 # 4. K-nearest neighbour Classification
 
@@ -86,5 +113,9 @@ So, ROC AUC is the percentage of the ROC plot that is underneath the curve.
 
 
 # REFERENCE
+
+https://medium.com/swlh/decision-tree-classification-de64fc4d5aac
+
+https://medium.com/swlh/random-forest-classification-and-its-implementation-d5d840dbead0
 
 https://towardsdatascience.com/model-evaluation-techniques-for-classification-models-eac30092c38b
