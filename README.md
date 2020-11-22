@@ -71,6 +71,26 @@ For finding closest similar points, you find the distance between points using d
 
 ## 5. SVM Classification
 
+SVM or Support Vector Machine is a linear model for classification and regression problems. It can easily handle multiple continuous and categorical variables. SVM constructs a hyperplane in multidimensional space to separate different classes. SVM generates optimal hyperplane in an iterative manner, which is used to minimize an error. The core idea of SVM is to find a maximum marginal hyperplane(MMH) that best divides the dataset into classes.
+
+![Support Vector Machines (SVM)](https://github.com/Ansu-John/Classification-Models/blob/main/resources/Support Vector Machines (SVM).png)
+
++ **Support Vectors**
+
+Support vectors are the data points, which are closest to the hyperplane. These points will define the separating line better by calculating margins. These points are more relevant to the construction of the classifier.
++ **Hyperplane**
+
+A hyperplane is a decision plane which separates between a set of objects having different class memberships.
++ **Margin**
+
+A margin is a gap between the two lines on the closest class points. This is calculated as the perpendicular distance from the line to support vectors or closest points. If the margin is larger in between the classes, then it is considered a good margin, a smaller margin is a bad margin.
+
+### SVM Kernels
+The SVM algorithm is implemented in practice using a kernel. Kernel takes a low-dimensional input space and transforms it into a higher dimensional space. In other words, you can say that it converts nonseparable problem to separable problems by adding more dimension to it. It is most useful in non-linear separation problem. Kernel trick helps you to build a more accurate classifier.
++ **Linear Kernel :** A linear kernel can be used as normal dot product any two given observations. 
++ **Polynomial Kernel :** A polynomial kernel is a more generalized form of the linear kernel. The polynomial kernel can distinguish curved or nonlinear input space.
++ **Radial Basis Function Kernel :** The Radial basis function kernel is a popular kernel function commonly used in support vector machine classification. RBF can map an input space in infinite dimensional space.
+
 ## 6. Naive Bayes Classification
 
 # Model evaluation
@@ -151,6 +171,8 @@ https://medium.com/swlh/random-forest-classification-and-its-implementation-d5d8
 https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
 
 https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
+
+https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
 
 https://developers.google.com/machine-learning/crash-course/classification/accuracy
 
